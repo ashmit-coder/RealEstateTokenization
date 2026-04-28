@@ -26,8 +26,8 @@ const Navbar = () => {
               </div>
             </div>
             <div>
-              <span className="text-2xl font-black text-amber-300">PropertyChain</span>
-              <div className="text-xs text-amber-400/70 font-semibold tracking-widest">BLOCKCHAIN REAL ESTATE</div>
+              <span className="text-2xl font-black text-amber-300">DigiAsset</span>
+              <div className="text-xs text-amber-400/70 font-semibold tracking-widest">DIGITAL ASSET PLATFORM</div>
             </div>
           </Link>
 

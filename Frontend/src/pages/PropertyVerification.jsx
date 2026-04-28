@@ -130,7 +130,7 @@ const PropertyVerification = () => {
             animate={{ scale: 1 }}
             className="inline-block p-3 rounded-full bg-purple-500/20 mb-4"
           >
-            <Building2 className="h-8 w-8 text-purple-500" />
+            <Building2 className="h-8 w-8 text-amber-500" />
           </motion.div>
           <h1 className="text-4xl font-bold mb-4">Property Verification</h1>
           <p className="text-gray-400 max-w-2xl mx-auto">
@@ -189,7 +189,7 @@ const PropertyVerification = () => {
                       <>
                         <button
                           onClick={() => document.getElementById(`file-${index}`).click()}
-                          className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors"
+                          className="flex items-center space-x-2 text-amber-400 hover:text-amber-300 transition-colors"
                         >
                           <Upload className="h-5 w-5" />
                           <span>Upload Document</span>

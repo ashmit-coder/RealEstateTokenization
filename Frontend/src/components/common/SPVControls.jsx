@@ -95,7 +95,7 @@ const SPVControls = ({ contractAddress, userAddress }) => {
       {/* Distribute Rent */}
       <button
         onClick={handleDistributeRent}
-        className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg"
+        className="bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-lg"
       >
         Distribute Rent
       </button>

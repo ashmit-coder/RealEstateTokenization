@@ -49,7 +49,7 @@ const Login = () => {
                   placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full bg-slate-700/50 rounded-lg py-3 px-12 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full bg-slate-700/50 rounded-lg py-3 px-12 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500"
                   required
                 />
               </div>
@@ -61,7 +61,7 @@ const Login = () => {
                   placeholder="Password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full bg-slate-700/50 rounded-lg py-3 px-12 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full bg-slate-700/50 rounded-lg py-3 px-12 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500"
                   required
                 />
               </div>
@@ -75,14 +75,14 @@ const Login = () => {
                   placeholder="Full Name"
                   value={fullName}
                   onChange={(e) => setFullName(e.target.value)}
-                  className="w-full bg-slate-700/50 rounded-lg py-3 px-12 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full bg-slate-700/50 rounded-lg py-3 px-12 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500"
                 />
               </div>
             )}
 
             <button
               type="submit"
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg flex items-center justify-center space-x-2 transition-colors"
+              className="w-full bg-amber-600 hover:bg-amber-700 text-white py-3 rounded-lg flex items-center justify-center space-x-2 transition-colors"
             >
               <span>{isLogin ? 'Sign In' : 'Create Account'}</span>
               <ArrowRight className="h-5 w-5" />
@@ -92,7 +92,7 @@ const Login = () => {
           <div className="mt-6 text-center">
             <button
               onClick={() => setIsLogin(!isLogin)}
-              className="text-blue-400 hover:text-blue-300 transition-colors"
+              className="text-amber-400 hover:text-amber-300 transition-colors"
             >
               {isLogin ? "Don't have an account? Sign Up" : 'Already have an account? Sign In'}
             </button>

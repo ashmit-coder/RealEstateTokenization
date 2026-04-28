@@ -101,7 +101,7 @@ const CreatePropertyToken = () => {
             placeholder="Property Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full p-3 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-amber-500"
           />
 
           <input
@@ -109,7 +109,7 @@ const CreatePropertyToken = () => {
             placeholder="Symbol"
             value={symbol}
             onChange={(e) => setSymbol(e.target.value)}
-            className="w-full p-3 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-amber-500"
           />
 
           <input
@@ -117,7 +117,7 @@ const CreatePropertyToken = () => {
             placeholder="Location"
             value={location}
             onChange={(e) => setLocation(e.target.value)}
-            className="w-full p-3 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-amber-500"
           />
 
           <div className="text-sm text-gray-400">
@@ -130,7 +130,7 @@ const CreatePropertyToken = () => {
 
           <motion.button
             onClick={createRealEstateToken}
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-md font-semibold transition-all flex items-center justify-center"
+            className="w-full bg-amber-600 hover:bg-amber-700 text-white py-3 rounded-md font-semibold transition-all flex items-center justify-center"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             disabled={loading || verificationStatus !== 'matched' || propertyStatus !== 'approved'}

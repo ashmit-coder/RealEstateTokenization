@@ -30,7 +30,7 @@ const DocumentVerification = () => {
           <p className="text-gray-400 mb-6">
             Document verification is part of the onboarding flow and will be linked to both KYC and property verification.
           </p>
-          <Link to="/verification" className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white">
+          <Link to="/verification" className="inline-flex items-center px-6 py-3 rounded-lg bg-amber-600 hover:bg-amber-700 text-white">
             Back to Verification Center
           </Link>
         </div>

@@ -1,4 +1,4 @@
-# 🏠 Real Estate Tokenization Platform
+# 🏠 DigiAsset - Real Estate Tokenization Platform
 
 A decentralized platform that enables tokenization of real estate properties, facilitates fractional ownership through token trading, and allows users to stake ETH in a liquidity pool for profit sharing.
 

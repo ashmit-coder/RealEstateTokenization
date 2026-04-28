@@ -115,7 +115,7 @@ const KYCVerification = () => {
         <div className="bg-slate-800/50 rounded-xl p-10 border border-slate-700/50 backdrop-blur-sm text-center">
           <h1 className="text-3xl font-bold mb-4">KYC Verification</h1>
           <p className="text-gray-400 mb-6">Sign in to start your Aadhaar verification.</p>
-          <a href="/login" className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white">
+          <a href="/login" className="inline-flex items-center px-6 py-3 rounded-lg bg-amber-600 hover:bg-amber-700 text-white">
             Go to Login
           </a>
         </div>
@@ -134,9 +134,9 @@ const KYCVerification = () => {
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
-            className="inline-block p-3 rounded-full bg-blue-500/20 mb-4"
+            className="inline-block p-3 rounded-full bg-amber-500/20 mb-4"
           >
-            <Shield className="h-8 w-8 text-blue-500" />
+            <Shield className="h-8 w-8 text-amber-500" />
           </motion.div>
           <h1 className="text-4xl font-bold mb-4">Aadhaar Verification</h1>
           <p className="text-gray-400 max-w-2xl mx-auto">
@@ -150,7 +150,7 @@ const KYCVerification = () => {
               <div key={number} className="flex flex-col items-center">
                 <div
                   className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    step > number ? 'bg-green-500' : step === number ? 'bg-blue-500' : 'bg-slate-700'
+                    step > number ? 'bg-green-500' : step === number ? 'bg-amber-500' : 'bg-slate-700'
                   } transition-colors duration-300`}
                 >
                   {step > number ? (
@@ -193,7 +193,7 @@ const KYCVerification = () => {
               <button
                 onClick={handleExtractAadhaar}
                 disabled={loading || !documentFile}
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 rounded-lg transition-colors disabled:opacity-75 disabled:cursor-not-allowed font-medium"
+                className="w-full bg-amber-600 hover:bg-amber-700 text-white px-5 py-3 rounded-lg transition-colors disabled:opacity-75 disabled:cursor-not-allowed font-medium"
               >
                 {loading ? 'Extracting...' : 'Extract Details from Document'}
               </button>
@@ -210,7 +210,7 @@ const KYCVerification = () => {
                         value={aadhaarNumber}
                         onChange={(e) => setAadhaarNumber(e.target.value)}
                         placeholder="Enter Aadhaar number"
-                        className="w-full bg-slate-700/50 rounded-lg py-3 px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full bg-slate-700/50 rounded-lg py-3 px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500"
                       />
                     </div>
                     <div>
@@ -220,7 +220,7 @@ const KYCVerification = () => {
                         value={aadhaarName}
                         onChange={(e) => setAadhaarName(e.target.value)}
                         placeholder="Name from Aadhaar"
-                        className="w-full bg-slate-700/50 rounded-lg py-3 px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full bg-slate-700/50 rounded-lg py-3 px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500"
                       />
                     </div>
                   </div>
@@ -232,7 +232,7 @@ const KYCVerification = () => {
                         type="date"
                         value={dob}
                         onChange={(e) => setDob(e.target.value)}
-                        className="w-full bg-slate-700/50 rounded-lg py-3 px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full bg-slate-700/50 rounded-lg py-3 px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500"
                       />
                     </div>
                     <div>
@@ -241,7 +241,7 @@ const KYCVerification = () => {
                         value={address}
                         onChange={(e) => setAddress(e.target.value)}
                         placeholder="Address from Aadhaar"
-                        className="w-full bg-slate-700/50 rounded-lg py-3 px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full bg-slate-700/50 rounded-lg py-3 px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500"
                         rows="3"
                       />
                     </div>
@@ -295,7 +295,7 @@ const KYCVerification = () => {
                 <button
                   onClick={handleSubmitKYC}
                   disabled={loading || !aadhaarNumber}
-                  className={`bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg flex items-center space-x-2 transition-colors ${
+                  className={`bg-amber-600 hover:bg-amber-700 text-white px-6 py-2 rounded-lg flex items-center space-x-2 transition-colors ${
                     loading ? 'opacity-75 cursor-not-allowed' : ''
                   }`}
                 >

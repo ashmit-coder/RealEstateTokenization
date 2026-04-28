@@ -124,7 +124,7 @@ const Home = () => {
             className="text-center mb-20"
           >
             <h2 className="text-4xl md:text-5xl font-black mb-6 text-white">
-              Why PropertyChain?
+              Why DigiAsset?
             </h2>
             <p className="text-xl text-slate-400">Democratizing wealth through real estate. Start investing with zero friction and maximum control.</p>
           </motion.div>

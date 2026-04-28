@@ -177,8 +177,8 @@ const LiquidityPool = () => {
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }} className="bg-slate-800/50 p-6 rounded-xl backdrop-blur-sm">
             <h2 className="text-2xl font-semibold mb-6">Stake ETH</h2>
             <div className="space-y-4">
-              <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount" className="w-full bg-slate-700/50 rounded-lg py-3 px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" />
-              <button onClick={stakeEth} className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg flex items-center justify-center space-x-2 transition-colors">
+              <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount" className="w-full bg-slate-700/50 rounded-lg py-3 px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500" />
+              <button onClick={stakeEth} className="w-full bg-amber-600 hover:bg-amber-700 text-white py-3 rounded-lg flex items-center justify-center space-x-2 transition-colors">
                 <Coins className="h-5 w-5" />
                 <span>Stake ETH</span>
               </button>
@@ -195,25 +195,25 @@ const LiquidityPool = () => {
 
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.4 }} className="grid grid-cols-2 gap-4">
             <div className="bg-slate-800/50 p-6 rounded-xl backdrop-blur-sm">
-              <DollarSign className="h-8 w-8 text-blue-500 mb-2" />
+              <DollarSign className="h-8 w-8 text-amber-500 mb-2" />
               <h3 className="text-lg font-semibold">Your Stake</h3>
-              <p className="text-2xl font-bold text-blue-400">{userStake} ETH</p>
+              <p className="text-2xl font-bold text-amber-400">{userStake} ETH</p>
             </div>
             <div className="bg-slate-800/50 p-6 rounded-xl backdrop-blur-sm">
-              <DollarSign className="h-8 w-8 text-green-500 mb-2" />
+              <DollarSign className="h-8 w-8 text-amber-500 mb-2" />
               <h3 className="text-lg font-semibold">Your Profit</h3>
-              <p className="text-2xl font-bold text-green-400">{userProfit} ETH</p>
-              <button onClick={withdrawProfit} className="w-full bg-green-600 hover:bg-green-700 text-white py-2 mt-2 rounded-lg">Withdraw Profit</button>
+              <p className="text-2xl font-bold text-amber-400">{userProfit} ETH</p>
+              <button onClick={withdrawProfit} className="w-full bg-amber-600 hover:bg-amber-700 text-white py-2 mt-2 rounded-lg">Withdraw Profit</button>
             </div>
             <div className="bg-slate-800/50 p-6 rounded-xl backdrop-blur-sm">
-              <Coins className="h-8 w-8 text-purple-500 mb-2" />
+              <Coins className="h-8 w-8 text-amber-500 mb-2" />
               <h3 className="text-lg font-semibold">Total Stakers</h3>
-              <p className="text-2xl font-bold text-purple-400">{totalStakers}</p>
+              <p className="text-2xl font-bold text-amber-400">{totalStakers}</p>
             </div>
             <div className="bg-slate-800/50 p-6 rounded-xl backdrop-blur-sm">
-              <DollarSign className="h-8 w-8 text-blue-500 mb-2" />
+              <DollarSign className="h-8 w-8 text-amber-500 mb-2" />
               <h3 className="text-lg font-semibold">Total Liquidity</h3>
-              <p className="text-2xl font-bold text-blue-400">{totalLiquidity} ETH</p>
+              <p className="text-2xl font-bold text-amber-400">{totalLiquidity} ETH</p>
             </div>
           </motion.div>
         </div>
@@ -265,7 +265,7 @@ const LiquidityPool = () => {
                                 sellAmount[token.tokenAddress]
                               )
                             }
-                            className="bg-yellow-600 px-3 py-2 rounded-lg text-white"
+                            className="bg-amber-600 hover:bg-amber-700 px-3 py-2 rounded-lg text-white"
                           >
                             List
                           </button>
@@ -311,7 +311,7 @@ const LiquidityPool = () => {
                         />
                       </td>
                       <td>
-                        <button onClick={() => buyToken(request.tokenAddress, buyAmount[request._id], request._id, request.seller)} className="bg-green-600 px-3 py-2 rounded-lg text-white flex items-center">
+                        <button onClick={() => buyToken(request.tokenAddress, buyAmount[request._id], request._id, request.seller)} className="bg-amber-600 hover:bg-amber-700 px-3 py-2 rounded-lg text-white flex items-center">
                           <ShoppingCart className="h-5 w-5" />
                         </button>
                       </td>

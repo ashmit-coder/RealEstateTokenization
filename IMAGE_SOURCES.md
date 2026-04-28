@@ -1,4 +1,4 @@
-# PropertyChain - Image Sources & Guidelines
+# DigiAsset - Image Sources & Guidelines
 
 ## ✨ Free High-Quality Stock Photo Sources
 - **Unsplash** (https://unsplash.com) - No attribution required
@@ -166,7 +166,7 @@
 ---
 
 ## 🎯 COLOR PALETTE FOR OVERLAYS
-Match with PropertyChain theme when adding image overlays:
+Match with DigiAsset theme when adding image overlays:
 - Primary Amber: `#f59e0b`
 - Primary Orange: `#fb923c`
 - Dark Background: `#0f172a`

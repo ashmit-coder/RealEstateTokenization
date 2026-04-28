@@ -85,7 +85,7 @@ const Verification = () => {
             variants={itemVariants}
             className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed"
           >
-            Complete necessary verifications to ensure security and compliance. Choose the verification process you need to get started with PropertyChain.
+            Complete necessary verifications to ensure security and compliance. Choose the verification process you need to get started with DigiAsset.
           </motion.p>
         </motion.div>
 
@@ -191,7 +191,7 @@ const Verification = () => {
               Ready to Get <span className="bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent">Verified?</span>
             </h3>
             <p className="text-slate-300 max-w-2xl mx-auto mb-8 text-lg">
-              Complete your verification today and unlock access to premium properties and investment opportunities on PropertyChain.
+              Complete your verification today and unlock access to premium properties and investment opportunities on DigiAsset.
             </p>
             <Link
               to="/kyc-verification"

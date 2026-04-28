@@ -92,7 +92,7 @@ const Dashboard = () => {
           <motion.h1
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            className="text-4xl font-extrabold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"
+            className="text-4xl font-extrabold bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent"
           >
             Dashboard Overview
           </motion.h1>
@@ -100,22 +100,22 @@ const Dashboard = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           {[{
-            icon: <Wallet className="h-8 w-8 text-blue-400" />,
+            icon: <Wallet className="h-8 w-8 text-amber-400" />,
             label: 'Portfolio Value',
             value: `${totalValue} ETH`,
-            color: 'blue'
+            color: 'amber'
           },
           {
-            icon: <Building2 className="h-8 w-8 text-purple-400" />,
+            icon: <Building2 className="h-8 w-8 text-orange-400" />,
             label: 'Total Tokens',
             value: totalTokens,
-            color: 'purple'
+            color: 'orange'
           },
           {
-            icon: <LineChart className="h-8 w-8 text-green-400" />,
+            icon: <LineChart className="h-8 w-8 text-yellow-400" />,
             label: 'Properties',
             value: properties,
-            color: 'green'
+            color: 'yellow'
           }].map((stat, index) => (
             <motion.div
               key={index}
@@ -140,7 +140,7 @@ const Dashboard = () => {
             animate={{ opacity: 1, x: 0 }}
             className="bg-gray-800 rounded-xl p-6 shadow-md border border-gray-700"
           >
-            <h2 className="text-xl font-semibold mb-6 flex items-center gap-2 text-blue-400">
+            <h2 className="text-xl font-semibold mb-6 flex items-center gap-2 text-amber-400">
               <History className="h-6 w-6" /> Recent Transactions
             </h2>
             <div className="space-y-4">

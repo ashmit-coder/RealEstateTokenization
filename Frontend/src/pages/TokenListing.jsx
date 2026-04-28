@@ -76,7 +76,7 @@ const TokenListing = () => {
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
           <button
-            className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition-colors"
+            className="flex-1 bg-amber-600 hover:bg-amber-700 text-white py-2 rounded-lg transition-colors"
             onClick={() => navigate('/create-token')}
           >
             Create Tokens
@@ -105,7 +105,7 @@ const TokenListing = () => {
                     alt={property.name}
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm">
+                  <div className="absolute top-4 right-4 bg-amber-600 text-white px-3 py-1 rounded-full text-sm">
                     {property.occupancy} 
                   </div>
                 </div>
@@ -136,7 +136,7 @@ const TokenListing = () => {
                   </div>
 
                   <div className="flex space-x-4">
-                    <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition-colors" onClick={()=>
+                    <button className="flex-1 bg-amber-600 hover:bg-amber-700 text-white py-2 rounded-lg transition-colors" onClick={()=>
                       navigate(`/seller-listing/${property.id}`)
                     }>
                       Buy Tokens

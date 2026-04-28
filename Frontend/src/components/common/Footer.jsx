@@ -15,7 +15,7 @@ const Footer = () => {
                   <Building2 className="h-5 w-5 text-amber-400" />
                 </div>
               </div>
-              <span className="text-lg font-black text-amber-300">PropertyChain</span>
+              <span className="text-lg font-black text-amber-300">DigiAsset</span>
             </Link>
             <p className="text-slate-400 mb-6 leading-relaxed">
               Empowering individuals to build generational wealth through fractional real estate ownership. No gatekeepers. No minimums. Just pure blockchain-powered investing.
@@ -90,7 +90,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center space-x-3 text-slate-400 hover:text-amber-300 transition-colors duration-300">
                 <Mail className="h-4 w-4 text-amber-500 flex-shrink-0" />
-                <a href="mailto:hello@propertychain.io" className="font-medium">hello@propertychain.io</a>
+                <a href="mailto:hello@digiasset.io" className="font-medium">hello@digiasset.io</a>
               </li>
               <li className="flex items-center space-x-3 text-slate-400 hover:text-amber-300 transition-colors duration-300">
                 <Phone className="h-4 w-4 text-amber-500 flex-shrink-0" />
@@ -118,7 +118,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-center text-sm text-slate-500">
-            <p>© 2024 PropertyChain. All rights reserved. | Democratizing Real Estate Ownership</p>
+            <p>© 2024 DigiAsset. All rights reserved. | Democratizing Real Estate Ownership</p>
           </div>
         </div>
       </div>
